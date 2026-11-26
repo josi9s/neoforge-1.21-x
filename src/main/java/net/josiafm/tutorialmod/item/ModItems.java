@@ -12,6 +12,9 @@ public class ModItems {
     public static final DeferredItem<Item> SIXSEVEN = ITEMS.register("sixseven",
             () -> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> RAW_SIXSEVEN = ITEMS.register("raw_sixseven",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     };
